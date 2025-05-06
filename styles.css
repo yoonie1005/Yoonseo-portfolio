@@ -589,3 +589,25 @@ category-card-mds {
     color: #444;
     line-height: 1.7;
 }
+
+
+  
+.lecture-section {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .lecture-img {
+    display: block;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem; 
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  
+  
+
