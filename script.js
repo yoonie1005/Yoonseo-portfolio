@@ -11,22 +11,22 @@ document.addEventListener('DOMContentLoaded', () => {
         updateActiveLink('home');
     });
 
-    // Add click events to navigation links
-    navLinks.forEach(link => {
-        link.addEventListener('click', (e) => {
-            e.preventDefault();
-            const targetId = link.getAttribute('href').substring(1);
-            updateActiveLink(targetId);
+    // // Add click events to navigation links
+    // navLinks.forEach(link => {
+    //     link.addEventListener('click', (e) => {
+    //         // e.preventDefault();
+    //         const targetId = link.getAttribute('href').substring(1);
+    //         updateActiveLink(targetId);
             
-            // Smooth scroll to section
-            const targetSection = document.getElementById(targetId);
-            if (targetSection) {
-                targetSection.scrollIntoView({
-                    behavior: 'smooth'
-                });
-            }
-        });
-    });
+    //         // Smooth scroll to section
+    //         const targetSection = document.getElementById(targetId);
+    //         if (targetSection) {
+    //             targetSection.scrollIntoView({
+    //                 behavior: 'smooth'
+    //             });
+    //         }
+    //     });
+    // });
 
     // Update active link based on scroll position
     window.addEventListener('scroll', () => {
